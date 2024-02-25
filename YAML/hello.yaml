@@ -1,0 +1,10 @@
+"banana" : "I am a yellow fruit."
+79 : "this is my roll no."
+---
+"note" : "YAML is case sensitive."
+---
+# lists
+- bee
+- mechanicsk
+- deca
+...

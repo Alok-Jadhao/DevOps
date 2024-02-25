@@ -1,0 +1,16 @@
+message: Hello
+
+num: !!int 2
+negNum: !!int -40
+binary: !!int 0b11001
+hexnum: !!int 0x456
+octal: !!int 0256
+
+# This is a comment.
+commaValue: !!int 457_000 #457,000
+
+marks: !!float 56.89
+infinity: !!float .inf
+not_a_num: .nan
+
+#We are doing "!!" to force indicate the data type.

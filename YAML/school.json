@@ -1,0 +1,18 @@
+{
+  "School": [
+    {
+      "name": "DPS",
+      "Principal": "Someone",
+      "Students": [
+        {
+          "Student": [
+            {
+              "roll_no": 79,
+              "name": "Tony Stark"
+            }
+          ] 
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# nested maps
+name: John Wick
+role:
+  age: 40
+  job: assassin
+
+# same as:
+name: John Wick
+role: {age: 40, job: assassin}
+
+# keys can have duplicate values.
+example: !!pairs
+ - job: student
+ - job: computer enthusiast.  
+
+# !!set == unique values
+students: !!set
+ ? John
+ ? Professor
+ ? Berlin

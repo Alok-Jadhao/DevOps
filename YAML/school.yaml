@@ -1,0 +1,8 @@
+---
+School:
+  - name: DPS
+    Principal: Someone
+    Students:
+      - name: John
+        rno: 79
+        marks: !!float 8.7
