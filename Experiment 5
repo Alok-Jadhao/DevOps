@@ -15,3 +15,16 @@ vboxuser@ubuntu:~$ ip a
        valid_lft 7001sec preferred_lft 7001sec
     inet6 fe80::da19:8412:89f7:7a6b/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
+
+vboxuser@ubuntu:~$ sudo tail -f /var/log/apache2/error.log
+[sudo] password for vboxuser: 
+[Wed Feb 19 01:50:23.195786 2025] [core:notice] [pid 3940:tid 133633273939840] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 19 01:55:00.490611 2025] [mpm_event:notice] [pid 3940:tid 133633273939840] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Feb 24 22:59:14.179108 2025] [mpm_event:notice] [pid 725:tid 139108263888768] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Mon Feb 24 22:59:14.189452 2025] [core:notice] [pid 725:tid 139108263888768] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Feb 24 23:10:27.157310 2025] [mpm_event:notice] [pid 725:tid 139108263888768] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Feb 24 23:10:27.208065 2025] [mpm_event:notice] [pid 2563:tid 124498463954816] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Mon Feb 24 23:10:27.208200 2025] [core:notice] [pid 2563:tid 124498463954816] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Feb 24 23:32:28.566263 2025] [mpm_event:notice] [pid 2563:tid 124498463954816] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Feb 24 23:32:28.615254 2025] [mpm_event:notice] [pid 4566:tid 130546425276288] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Mon Feb 24 23:32:28.615376 2025] [core:notice] [pid 4566:tid 130546425276288] AH00094: Command line: '/usr/sbin/apache2'
