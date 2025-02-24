@@ -28,3 +28,7 @@ vboxuser@ubuntu:~$ sudo tail -f /var/log/apache2/error.log
 [Mon Feb 24 23:32:28.566263 2025] [mpm_event:notice] [pid 2563:tid 124498463954816] AH00492: caught SIGWINCH, shutting down gracefully
 [Mon Feb 24 23:32:28.615254 2025] [mpm_event:notice] [pid 4566:tid 130546425276288] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
 [Mon Feb 24 23:32:28.615376 2025] [core:notice] [pid 4566:tid 130546425276288] AH00094: Command line: '/usr/sbin/apache2'
+
+
+sudo ip addr add 192.168.126.2/24 dev enp0s3
+sudo ip addr add 192.168.126.3/24 dev enp0s3
